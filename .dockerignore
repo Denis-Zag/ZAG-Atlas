@@ -1,0 +1,16 @@
+.env
+.env.server
+.env.server.tmp.*
+deploy/server-domain.env
+.venv
+data
+.git
+__pycache__
+*.zip
+
+_rollback/
+
+.qdrant-build.log
+.hybrid-live.log
+
+.schedule-probe.log

@@ -1,0 +1,23 @@
+{
+  "execution_source": "user_terminal_report",
+  "model_result": {
+    "answer": "Менеджер уточняет адрес и вид работ.",
+    "sources": [
+      {
+        "quote": "При создании заявки менеджер уточняет адрес и вид работ."
+      }
+    ],
+    "confidence": "high",
+    "needs_review": false
+  },
+  "error": null,
+  "meta": {
+    "usage": {
+      "prompt_tokens": 272,
+      "completion_tokens": 120,
+      "total_tokens": 392,
+      "reasoning_tokens": 64
+    },
+    "duration_ms": 3817
+  }
+}

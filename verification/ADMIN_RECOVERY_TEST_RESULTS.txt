@@ -1,0 +1,31 @@
+D:\VibeProjects\Educational_projects\ZAG Atlas\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_audit_does_not_contain_password_or_hash (test_recover_admin.AdminRecoveryTests.test_audit_does_not_contain_password_or_hash) ... ok
+test_audit_failure_rolls_back_password_and_sessions (test_recover_admin.AdminRecoveryTests.test_audit_failure_rolls_back_password_and_sessions) ... ok
+test_cli_mismatch_is_safe (test_recover_admin.AdminRecoveryTests.test_cli_mismatch_is_safe) ... ok
+test_cli_requires_terminal_before_reading_password (test_recover_admin.AdminRecoveryTests.test_cli_requires_terminal_before_reading_password) ... ok
+test_cli_success_and_parameters_do_not_expose_secret (test_recover_admin.AdminRecoveryTests.test_cli_success_and_parameters_do_not_expose_secret) ... ok
+test_disabled_admin_is_reactivated (test_recover_admin.AdminRecoveryTests.test_disabled_admin_is_reactivated) ... ok
+test_documents_history_and_staff_are_preserved (test_recover_admin.AdminRecoveryTests.test_documents_history_and_staff_are_preserved) ... ok
+test_getpass_warning_does_not_fall_back_to_visible_input (test_recover_admin.AdminRecoveryTests.test_getpass_warning_does_not_fall_back_to_visible_input) ... ok
+test_invalid_password_does_not_change_data (test_recover_admin.AdminRecoveryTests.test_invalid_password_does_not_change_data) ... ok
+test_missing_admin_is_not_created (test_recover_admin.AdminRecoveryTests.test_missing_admin_is_not_created) ... ok
+test_missing_database_is_not_created (test_recover_admin.AdminRecoveryTests.test_missing_database_is_not_created) ... ok
+test_only_admin_access_changes_and_audit_has_no_secret (test_recover_admin.AdminRecoveryTests.test_only_admin_access_changes_and_audit_has_no_secret) ... ok
+test_only_admin_sessions_and_login_counter_are_cleared (test_recover_admin.AdminRecoveryTests.test_only_admin_sessions_and_login_counter_are_cleared) ... ok
+test_password_replaced_and_change_is_required (test_recover_admin.AdminRecoveryTests.test_password_replaced_and_change_is_required) ... ok
+{"timestamp": "2026-11-18T07:55:29.184732+00:00", "level": "INFO", "event": "application_started", "request_id": null, "component": "lifecycle", "search_mode": "lexical"}
+{"timestamp": "2026-11-18T07:55:29.222952+00:00", "level": "WARNING", "event": "request_completed", "request_id": "b42cc16f-a527-49e7-a5cf-ab5ef2aa86af", "component": "api", "method": "GET", "route": "/session", "http_status": 401, "audit_status": "ok", "status": "rejected", "duration_ms": 10}
+{"timestamp": "2026-11-18T07:55:29.238975+00:00", "level": "WARNING", "event": "request_completed", "request_id": "7cfb15ab-c5b4-4782-8b5a-c3ecef9c2323", "component": "api", "method": "POST", "route": "/auth/login", "http_status": 401, "audit_status": "ok", "status": "rejected", "duration_ms": 12}
+{"timestamp": "2026-11-18T07:55:29.253990+00:00", "level": "INFO", "event": "request_completed", "request_id": "29adef05-144f-40fd-b926-8e647829ca5c", "component": "api", "method": "POST", "route": "/auth/login", "http_status": 200, "audit_status": "ok", "status": "ok", "duration_ms": 13}
+{"timestamp": "2026-11-18T07:55:29.267968+00:00", "level": "INFO", "event": "request_completed", "request_id": "3ad23874-2fc2-4885-8297-4f44ec384e91", "component": "api", "method": "GET", "route": "/session", "http_status": 200, "audit_status": "ok", "status": "ok", "duration_ms": 10}
+{"timestamp": "2026-11-18T07:55:29.280649+00:00", "level": "WARNING", "event": "request_completed", "request_id": "b90547ea-fdc1-45a5-a86e-d6e35854a91b", "component": "api", "method": "GET", "route": "/kb/documents", "http_status": 403, "audit_status": "ok", "status": "rejected", "duration_ms": 10}
+{"timestamp": "2026-11-18T07:55:29.299870+00:00", "level": "INFO", "event": "request_completed", "request_id": "aab83b95-d9c3-4502-a45b-7ca255cd0161", "component": "api", "method": "POST", "route": "/auth/change-password", "http_status": 200, "audit_status": "ok", "status": "ok", "duration_ms": 16}
+{"timestamp": "2026-11-18T07:55:29.313286+00:00", "level": "INFO", "event": "request_completed", "request_id": "74213add-4754-4f54-939f-bbd4018f7575", "component": "api", "method": "GET", "route": "/kb/documents", "http_status": 200, "audit_status": "ok", "status": "ok", "duration_ms": 9}
+{"timestamp": "2026-11-18T07:55:29.315286+00:00", "level": "INFO", "event": "application_stopped", "request_id": null, "component": "lifecycle"}
+test_real_login_requires_password_change_and_old_cookie_fails (test_recover_admin.AdminRecoveryTests.test_real_login_requires_password_change_and_old_cookie_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.425s
+
+OK

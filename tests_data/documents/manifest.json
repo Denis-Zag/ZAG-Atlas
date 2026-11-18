@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01_services.docx",
+    "title": "Услуги и территория обслуживания",
+    "kind": "baseline"
+  },
+  {
+    "file": "02_intake.pdf",
+    "title": "Приём и согласование заявки",
+    "kind": "baseline"
+  },
+  {
+    "file": "03_prices.docx",
+    "title": "Стоимость и условия расчёта",
+    "kind": "baseline"
+  },
+  {
+    "file": "04_changes_warranty.pdf",
+    "title": "Перенос, отмена и гарантийные обращения",
+    "kind": "baseline"
+  },
+  {
+    "file": "05_faq.txt",
+    "title": "FAQ и передача сложных вопросов",
+    "kind": "baseline"
+  },
+  {
+    "file": "06_schedule_optional.pdf",
+    "title": "Расписание бригады",
+    "kind": "optional_after_unknown_question"
+  }
+]

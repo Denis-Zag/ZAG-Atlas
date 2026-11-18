@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-18",
+  "status": "reviewed",
+  "lesson_reviewed": true,
+  "variant": 5,
+  "required_report_sections": 16,
+  "documents": 5,
+  "document_line_counts": [
+    21,
+    21,
+    21,
+    21,
+    21
+  ],
+  "questions": 10,
+  "answered_expected": 7,
+  "review_expected": 3,
+  "offline_tests": 99,
+  "offline_duration_seconds": 39.622,
+  "skipped_tests": 0,
+  "javascript_network_scenarios": 10,
+  "javascript_scenarios_via_python_tests": 1,
+  "pip_check": "No broken requirements found.",
+  "syntax_checks": [
+    {
+      "check": "node --check static/app.js",
+      "exit_code": 0
+    },
+    {
+      "check": "node --check static/passwords.js",
+      "exit_code": 0
+    },
+    {
+      "check": "C:\\Program Files\\Git\\bin\\bash.exe -n install.sh",
+      "exit_code": 0
+    }
+  ],
+  "publication_candidate_files": 147,
+  "python_files_parsed": 30,
+  "local_links_checked": 62,
+  "missing_local_links": [],
+  "known_secret_matches": [],
+  "videos": [
+    {
+      "label": "demo",
+      "public_url": "https://disk.yandex.ru/i/yeqlG7qqGTrTVA",
+      "http_status": 200,
+      "name": "demo-video_Atlas.mp4",
+      "size": 44278591,
+      "media_type": "video",
+      "mime_type": "video/mp4",
+      "created": "2026-11-18T16:57:29+00:00",
+      "modified": "2026-11-18T16:57:29+00:00",
+      "duration_seconds": 321,
+      "full_content_reviewed": false,
+      "duration_source": "reported_by_author",
+      "duration_mm_ss": "5:21"
+    },
+    {
+      "label": "defense",
+      "public_url": "https://disk.yandex.ru/i/vF8l8ReHq6YUQQ",
+      "http_status": 200,
+      "name": "zashita_Atlas.mp4",
+      "size": 85912737,
+      "media_type": "video",
+      "mime_type": "video/mp4",
+      "created": "2026-11-18T16:58:48+00:00",
+      "modified": "2026-11-18T16:58:48+00:00",
+      "duration_seconds": 597,
+      "full_content_reviewed": false,
+      "duration_source": "reported_by_author",
+      "duration_mm_ss": "9:57"
+    }
+  ],
+  "running_service": {
+    "health_http_status": 200,
+    "javascript_http_status": 200,
+    "running_javascript_matches_source": true,
+    "running_recovery_180_seconds": true
+  },
+  "readme_video_links": [
+    "demo"
+  ],
+  "report_video_links": [
+    "demo",
+    "defense"
+  ],
+  "public_vps_deployment_required": false,
+  "public_vps_deployment_verified": false,
+  "new_paid_model_calls": 0,
+  "working_password_or_knowledge_changed": false,
+  "preserved_editorial_decisions": true,
+  "repository_url": "https://github.com/Denis-Zag/ZAG-Atlas"
+}

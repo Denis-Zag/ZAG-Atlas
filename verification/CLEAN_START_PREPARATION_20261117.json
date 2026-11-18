@@ -1,0 +1,23 @@
+{
+  "status": "prepared_not_executed",
+  "checked_at": "2026-11-17",
+  "powershell_51_selftest": "passed",
+  "offline_driver_checks": {
+    "transport": "Подменён; Docker Engine и внешние API не вызываются",
+    "success_path": "passed",
+    "working_volume_rejected_before_mutations": "passed",
+    "cleanup_after_build_failure": "passed",
+    "counts_as_real_clean_start": false
+  },
+  "checks": [
+    "Отдельные имя проекта и порт; запрет рабочего имени и порта 8000",
+    "Отклонение внешних ресурсов Compose",
+    "Экранирование аргументов Windows, включая пробелы, кавычки и завершающий обратный слеш",
+    "Синтаксис Python-проверки",
+    "Отказ Python-проверки без метки отдельной установки"
+  ],
+  "docker_execution": "pending_user_command",
+  "reason": "Текущая сессия не имеет доступа к каналу Docker Engine: Access denied.",
+  "paid_requests_executed": false,
+  "clean_start_requirement_closed": false
+}

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-11-16T11:06:57.259431+00:00",
+  "comparison": "Одинаковые вопросы, документы и лимит контекста; текущая реализация поиска по словам против hybrid",
+  "documents": 6,
+  "snippets": 39,
+  "context_budget": 20000,
+  "cases": [
+    {
+      "question": "Можно передвинуть приезд мастера?",
+      "expected_file": "04_changes_warranty.pdf",
+      "lexical_candidates": 0,
+      "lexical_result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "needs_review": true,
+        "error": "Подходящие фрагменты не найдены",
+        "external_model_called": false
+      },
+      "hybrid_seconds": 20.839,
+      "hybrid_result": {
+        "answer": "Поиск временно недоступен. Повторите вопрос позже или обратитесь к администратору.",
+        "sources": [],
+        "needs_review": true,
+        "error": "Векторный поиск недоступен: ProxyAPI (эмбеддинги): ConnectError",
+        "technical_error": true,
+        "qa_id": "613262d5-1ecb-4fc1-95ec-7fcfea6e03c3"
+      },
+      "sources": [],
+      "audit_meta": {
+        "technical_error": true,
+        "search_mode": "hybrid"
+      },
+      "passed": false
+    }
+  ],
+  "stopped_on_technical_error": true,
+  "passed": false
+}

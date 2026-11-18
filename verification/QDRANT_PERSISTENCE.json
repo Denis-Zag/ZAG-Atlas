@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "method": "create point; force-recreate qdrant; read point; delete owned probe collection",
+  "company_documents_changed": false
+}

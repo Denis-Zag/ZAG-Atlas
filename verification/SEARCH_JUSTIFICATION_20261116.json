@@ -1,0 +1,227 @@
+{
+  "created_at": "2026-11-16T11:08:55.867700+00:00",
+  "comparison": "Одинаковые вопросы, документы и лимит контекста; текущая реализация поиска по словам против hybrid",
+  "documents": 6,
+  "snippets": 39,
+  "context_budget": 20000,
+  "attempts": [
+    {
+      "file": "SEARCH_JUSTIFICATION_20261116_attempt1.json",
+      "passed": false,
+      "technical_error": true
+    },
+    {
+      "file": "SEARCH_JUSTIFICATION_20261116_attempt2.json",
+      "passed": true
+    }
+  ],
+  "successful_cases": [
+    {
+      "question": "Можно передвинуть приезд мастера?",
+      "expected_file": "04_changes_warranty.pdf",
+      "lexical_candidates": 0,
+      "lexical_result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "needs_review": true,
+        "error": "Подходящие фрагменты не найдены",
+        "external_model_called": false
+      },
+      "hybrid_seconds": 15.632,
+      "hybrid_result": {
+        "answer": "Да, приезд мастера можно передвинуть. Менеджер при переносе уточняет номер заявки и желаемую новую дату. Новое время согласуется с бригадой до подтверждения клиенту. Факт переноса фиксируется в карточке заявки. До подтверждения времени бригадой менеджер обозначает время как пожелание клиента. Если меняется адрес, менеджер повторно уточняет условия монтажа и фиксирует новый адрес.",
+        "sources": [
+          {
+            "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+            "quote": "Для переноса заявки менеджер уточняет номер заявки и желаемую новую дату."
+          },
+          {
+            "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+            "quote": "Новое время согласуется с бригадой до подтверждения клиенту."
+          },
+          {
+            "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+            "quote": "Факт переноса и новый адрес фиксируются в карточке заявки."
+          },
+          {
+            "document_id": "24cc4da8-853a-4de2-9d35-926bd7cc2286",
+            "quote": "До подтверждения времени бригадой менеджер обозначает время как пожелание клиента."
+          },
+          {
+            "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+            "quote": "При смене адреса менеджер повторно уточняет условия монтажа."
+          }
+        ],
+        "needs_review": false,
+        "error": null,
+        "technical_error": false,
+        "qa_id": "cc8ee38c-deba-4c1e-a3c2-8aa6dc4969e5"
+      },
+      "sources": [
+        {
+          "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+          "quote": "Для переноса заявки менеджер уточняет номер заявки и желаемую новую дату.",
+          "title": "04_changes_warranty.pdf",
+          "filename": "04_changes_warranty.pdf",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+          "quote": "Новое время согласуется с бригадой до подтверждения клиенту.",
+          "title": "04_changes_warranty.pdf",
+          "filename": "04_changes_warranty.pdf",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+          "quote": "Факт переноса и новый адрес фиксируются в карточке заявки.",
+          "title": "04_changes_warranty.pdf",
+          "filename": "04_changes_warranty.pdf",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "24cc4da8-853a-4de2-9d35-926bd7cc2286",
+          "quote": "До подтверждения времени бригадой менеджер обозначает время как пожелание клиента.",
+          "title": "02_intake.pdf",
+          "filename": "02_intake.pdf",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "0dfb30ed-7767-4374-9502-5a9f14f81174",
+          "quote": "При смене адреса менеджер повторно уточняет условия монтажа.",
+          "title": "04_changes_warranty.pdf",
+          "filename": "04_changes_warranty.pdf",
+          "exact_quote_verified": true
+        }
+      ],
+      "audit_meta": {
+        "usage": {
+          "prompt_tokens": 760,
+          "completion_tokens": 410,
+          "total_tokens": 1170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 192,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "duration_ms": 4391,
+        "search_mode": "hybrid",
+        "indexed": 39,
+        "embedding_tokens": 0,
+        "query_embedding_usage": {
+          "prompt_tokens": 14,
+          "total_tokens": 14
+        },
+        "semantic_candidates": 16,
+        "lexical_candidates": 0
+      },
+      "passed": true
+    },
+    {
+      "question": "Сколько стоит поставить сплит-систему?",
+      "expected_file": "03_prices.docx",
+      "lexical_candidates": 0,
+      "lexical_result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "needs_review": true,
+        "error": "Подходящие фрагменты не найдены",
+        "external_model_called": false
+      },
+      "hybrid_seconds": 8.657,
+      "hybrid_result": {
+        "answer": "Базовая стоимость стандартного монтажа сплит‑системы — 12000 рублей. Эта базовая цена монтажа включает трассу длиной до трёх метров. Стоимость каждого дополнительного метра трассы рассчитывает специалист по действующей смете. Если речь о промышленной системе, её стоимость монтажа не определяется по правилам бытового монтажа.",
+        "sources": [
+          {
+            "document_id": "b84c0aac-628f-4e9c-afaf-74ce5c8b1242",
+            "quote": "Учебная базовая стоимость стандартного монтажа составляет 12000 рублей."
+          },
+          {
+            "document_id": "b84c0aac-628f-4e9c-afaf-74ce5c8b1242",
+            "quote": "Базовая цена монтажа включает трассу длиной до трёх метров."
+          },
+          {
+            "document_id": "b84c0aac-628f-4e9c-afaf-74ce5c8b1242",
+            "quote": "Стоимость каждого дополнительного метра трассы рассчитывает специалист по действующей смете."
+          },
+          {
+            "document_id": "3074ef46-e0b8-4c5c-a95e-cfbe0b853f0e",
+            "quote": "Стоимость монтажа промышленной системы не определяется по правилам бытового монтажа."
+          }
+        ],
+        "needs_review": false,
+        "error": null,
+        "technical_error": false,
+        "qa_id": "758aadd7-c816-4ef6-9b6b-652ee86d688f"
+      },
+      "sources": [
+        {
+          "document_id": "b84c0aac-628f-4e9c-afaf-74ce5c8b1242",
+          "quote": "Учебная базовая стоимость стандартного монтажа составляет 12000 рублей.",
+          "title": "03_prices.docx",
+          "filename": "03_prices.docx",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "b84c0aac-628f-4e9c-afaf-74ce5c8b1242",
+          "quote": "Базовая цена монтажа включает трассу длиной до трёх метров.",
+          "title": "03_prices.docx",
+          "filename": "03_prices.docx",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "b84c0aac-628f-4e9c-afaf-74ce5c8b1242",
+          "quote": "Стоимость каждого дополнительного метра трассы рассчитывает специалист по действующей смете.",
+          "title": "03_prices.docx",
+          "filename": "03_prices.docx",
+          "exact_quote_verified": true
+        },
+        {
+          "document_id": "3074ef46-e0b8-4c5c-a95e-cfbe0b853f0e",
+          "quote": "Стоимость монтажа промышленной системы не определяется по правилам бытового монтажа.",
+          "title": "05_faq.txt",
+          "filename": "05_faq.txt",
+          "exact_quote_verified": true
+        }
+      ],
+      "audit_meta": {
+        "usage": {
+          "prompt_tokens": 409,
+          "completion_tokens": 540,
+          "total_tokens": 949,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 320,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "duration_ms": 8151,
+        "search_mode": "hybrid",
+        "indexed": 39,
+        "embedding_tokens": 0,
+        "query_embedding_usage": {
+          "prompt_tokens": 17,
+          "total_tokens": 17
+        },
+        "semantic_candidates": 16,
+        "lexical_candidates": 0
+      },
+      "passed": true
+    }
+  ],
+  "qdrant_resource_sample": {
+    "memory_mib": 19.69,
+    "cpu_percent": 0.04,
+    "peak_measured": false
+  },
+  "conclusion": "Польза семантического поиска показана на двух вопросах; необходимость отдельного сервиса на таком объёме и устойчивость внешнего API не доказаны."
+}

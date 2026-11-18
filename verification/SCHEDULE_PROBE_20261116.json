@@ -1,0 +1,11 @@
+{
+  "http_status": 200,
+  "answer": "Поиск временно недоступен. Повторите вопрос позже или обратитесь к администратору.",
+  "sources": [],
+  "needs_review": true,
+  "error": "Векторный поиск недоступен: ProxyAPI (эмбеддинги): ConnectError",
+  "technical_error": true,
+  "qa_id": "dde6e936-d7d0-47e1-96ce-94f3e832cc79",
+  "history_http": 200,
+  "history_error": "Векторный поиск недоступен: ProxyAPI (эмбеддинги): ConnectError"
+}

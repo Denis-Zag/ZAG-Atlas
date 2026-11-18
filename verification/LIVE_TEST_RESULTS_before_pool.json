@@ -1,0 +1,216 @@
+{
+  "checked_at": "2026-11-15T14:20:55.452300+00:00",
+  "model": "openai/gpt-5-mini",
+  "results": [
+    {
+      "number": 1,
+      "question": "Какие услуги оказывает компания?",
+      "expected_needs_review": false,
+      "why": "Услуги и территория обслуживания",
+      "http_status": 200,
+      "result": {
+        "answer": "Компания оказывает установку и обслуживание бытовых кондиционеров. В перечень услуг входят стандартный монтаж, чистка и диагностика бытовых кондиционеров.",
+        "sources": [
+          {
+            "document_id": "2ef291d8-36f4-41a4-b24d-2679d8ff25db",
+            "quote": "Учебная компания «Климат Сервис» занимается установкой и обслуживанием бытовых кондиционеров."
+          },
+          {
+            "document_id": "2ef291d8-36f4-41a4-b24d-2679d8ff25db",
+            "quote": "В перечень услуг входят стандартный монтаж, чистка и диагностика бытовых кондиционеров."
+          }
+        ],
+        "needs_review": false
+      },
+      "passed": true,
+      "duration_ms": 4362,
+      "error": null,
+      "meta": {
+        "usage": {
+          "prompt_tokens": 391,
+          "completion_tokens": 304,
+          "total_tokens": 695,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 192,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "duration_ms": 4326
+      }
+    },
+    {
+      "number": 2,
+      "question": "Какие данные уточняет менеджер при создании заявки?",
+      "expected_needs_review": false,
+      "why": "Приём и согласование заявки",
+      "http_status": 200,
+      "result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "sources": [],
+        "needs_review": true
+      },
+      "passed": false,
+      "duration_ms": 10566,
+      "error": "Ошибка внешнего сервиса: ConnectError",
+      "meta": {
+        "technical_error": true
+      }
+    },
+    {
+      "number": 3,
+      "question": "Сколько стоит стандартный монтаж?",
+      "expected_needs_review": false,
+      "why": "Стоимость и условия расчёта",
+      "http_status": 200,
+      "result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "sources": [],
+        "needs_review": true
+      },
+      "passed": false,
+      "duration_ms": 10303,
+      "error": "Ошибка внешнего сервиса: ConnectError",
+      "meta": {
+        "technical_error": true
+      }
+    },
+    {
+      "number": 4,
+      "question": "Какая длина трассы включена в базовую цену монтажа?",
+      "expected_needs_review": false,
+      "why": "Стоимость и условия расчёта",
+      "http_status": 200,
+      "result": {
+        "answer": "Базовая цена монтажа включает трассу длиной до трёх метров.",
+        "sources": [
+          {
+            "document_id": "d14bd9bb-36ed-462d-a250-9d2168db94b4",
+            "quote": "Базовая цена монтажа включает трассу длиной до трёх метров."
+          }
+        ],
+        "needs_review": false
+      },
+      "passed": true,
+      "duration_ms": 2704,
+      "error": null,
+      "meta": {
+        "usage": {
+          "prompt_tokens": 413,
+          "completion_tokens": 131,
+          "total_tokens": 544,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 64,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "duration_ms": 2685
+      }
+    },
+    {
+      "number": 5,
+      "question": "Что делать при переносе заявки на другой адрес?",
+      "expected_needs_review": false,
+      "why": "Перенос, отмена и гарантийные обращения",
+      "http_status": 200,
+      "result": {
+        "answer": "1) Зафиксировать факт переноса и новый адрес в карточке заявки. [Источник 1]\n2) Уточнить номер заявки и желаемую новую дату у клиента. [Источник 2]\n3) Повторно уточнить условия монтажа при смене адреса. [Источник 3]\n4) Повторить клиенту адрес и перечень запрошенных работ. [Источник 4]\n5) Передать фотографии места установки специалисту вместе с заявкой. [Источник 5]",
+        "sources": [
+          {
+            "document_id": "1454681e-9940-4fa9-bceb-6ae2d678710d",
+            "quote": "Факт переноса и новый адрес фиксируются в карточке заявки."
+          },
+          {
+            "document_id": "1454681e-9940-4fa9-bceb-6ae2d678710d",
+            "quote": "Для переноса заявки менеджер уточняет номер заявки и желаемую новую дату."
+          },
+          {
+            "document_id": "1454681e-9940-4fa9-bceb-6ae2d678710d",
+            "quote": "При смене адреса менеджер повторно уточняет условия монтажа."
+          },
+          {
+            "document_id": "c1939357-7f53-4e4e-bc2d-8427ff63294f",
+            "quote": "Менеджер повторяет клиенту адрес и перечень запрошенных работ."
+          },
+          {
+            "document_id": "c1939357-7f53-4e4e-bc2d-8427ff63294f",
+            "quote": "Фотографии места установки передаются специалисту вместе с заявкой."
+          }
+        ],
+        "needs_review": false
+      },
+      "passed": true,
+      "duration_ms": 6825,
+      "error": null,
+      "meta": {
+        "usage": {
+          "prompt_tokens": 405,
+          "completion_tokens": 654,
+          "total_tokens": 1059,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 384,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "duration_ms": 6806
+      }
+    },
+    {
+      "number": 6,
+      "question": "Что уточнить при гарантийном обращении?",
+      "expected_needs_review": false,
+      "why": "Перенос, отмена и гарантийные обращения",
+      "http_status": 200,
+      "result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "sources": [],
+        "needs_review": true
+      },
+      "passed": false,
+      "duration_ms": 10310,
+      "error": "Ошибка внешнего сервиса: ConnectError",
+      "meta": {
+        "technical_error": true
+      }
+    },
+    {
+      "number": 7,
+      "question": "Кому передать вопрос, если ответа нет в инструкциях?",
+      "expected_needs_review": false,
+      "why": "FAQ и передача сложных вопросов",
+      "http_status": 200,
+      "result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+        "sources": [],
+        "needs_review": true
+      },
+      "passed": false,
+      "duration_ms": 10689,
+      "error": "Ошибка внешнего сервиса: ConnectError",
+      "meta": {
+        "technical_error": true
+      }
+    }
+  ],
+  "completed": 7,
+  "passed": 3,
+  "total": 10,
+  "blocked": "Серия остановлена из-за повторяющихся ConnectError; полный прогон не подтверждён"
+}

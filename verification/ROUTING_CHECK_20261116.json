@@ -1,0 +1,19 @@
+{
+  "vpn_client": "VanyaVPN",
+  "vpn_mode_observed_in_user_screenshot": "Для России",
+  "vpn_changed_by_assistant": false,
+  "unauthenticated_connectivity_check_http": 401,
+  "question_result": {
+    "http_status": 200,
+    "seconds": 6.9,
+    "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.",
+    "sources": [],
+    "needs_review": true,
+    "error": "Низкая уверенность или требуется уточнение",
+    "technical_error": false,
+    "qa_id": "8c4de9fa-5301-4cad-aa03-d0a0dca68ae8",
+    "history_http": 200,
+    "history_error": "Низкая уверенность или требуется уточнение"
+  },
+  "limitation": "Один успешный контрольный запрос; фактические правила VPN программно не читались, причинность и длительная стабильность не установлены."
+}

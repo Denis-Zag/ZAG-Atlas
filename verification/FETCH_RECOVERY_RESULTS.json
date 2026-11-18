@@ -1,0 +1,29 @@
+{
+  "offline_tests": 23,
+  "frontend_simulation": {
+    "post_rejected": "Failed to fetch",
+    "recovered_from_history": true,
+    "post_calls": 1,
+    "history_get_calls": 1
+  },
+  "historical_failure": {
+    "error": "ConnectError",
+    "duration_ms": 20551
+  },
+  "diagnostic": {
+    "qdrant_health_http": 200,
+    "proxyapi_unauthenticated_models_http": 401
+  },
+  "limitation": "Симуляция JS без настоящего браузера; источник старого сетевого обрыва не установлен.",
+  "external_retry": {
+    "technical_error": true,
+    "service": "ProxyAPI (эмбеддинги)",
+    "http_status": 200,
+    "history_http": 200
+  },
+  "tls_probe": {
+    "windows": "TLSv1.3 passed",
+    "docker": "TLSv1.3 passed",
+    "conclusion": "Плавающий сбой не воспроизведён на сыром TLS; причина не установлена."
+  }
+}

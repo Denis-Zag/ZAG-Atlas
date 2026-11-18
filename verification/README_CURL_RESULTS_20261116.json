@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-11-16T15:07:53.735Z",
+  "cases": [
+    {
+      "passed": true,
+      "document_id": "0e67de31-482b-4ed7-b08b-7ac1c7da7d4a",
+      "duration_ms": 158,
+      "route": "/kb/documents"
+    },
+    {
+      "passed": true,
+      "sources": [
+        {
+          "document_id": "0e67de31-482b-4ed7-b08b-7ac1c7da7d4a",
+          "quote": "Менеджер уточняет адрес и вид работ."
+        }
+      ],
+      "answer": "Менеджер уточняет адрес и вид работ.",
+      "duration_ms": 2965,
+      "route": "/kb/ask"
+    },
+    {
+      "passed": true,
+      "answer": "Менеджер уточняет адрес и вид работ.",
+      "sources": [
+        {
+          "quote": "Менеджер уточняет адрес и вид работ."
+        }
+      ],
+      "confidence": "high",
+      "route": "/ai/answer_with_sources",
+      "duration_ms": 2255
+    }
+  ],
+  "powershell_version": "5.1.19041.6456",
+  "all_passed": true,
+  "isolation": {
+    "database": "временная база отдельного контейнера без рабочего тома",
+    "search_mode": "lexical",
+    "model": "openai/gpt-5-mini",
+    "live_model_calls": 2
+  },
+  "method": "Windows PowerShell 5.1 → системный curl.exe; JSON передаётся UTF-8 файлом через data-binary; stdout и код завершения захвачены явно.",
+  "limitation": "Это проверка API/curl, а не чистой сборки Compose с Qdrant.",
+  "persisted": {
+    "audits": [
+      {
+        "action": "POST /kb/documents",
+        "status": "ok",
+        "duration_ms": 12,
+        "usage": {}
+      },
+      {
+        "action": "POST /kb/ask",
+        "status": "ok",
+        "duration_ms": 2892,
+        "usage": {
+          "prompt_tokens": 269,
+          "completion_tokens": 117,
+          "total_tokens": 386,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 64,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      },
+      {
+        "action": "POST /ai/answer_with_sources",
+        "status": "ok",
+        "duration_ms": 2158,
+        "usage": {
+          "prompt_tokens": 269,
+          "completion_tokens": 117,
+          "total_tokens": 386,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 64,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    ],
+    "document_count": 1,
+    "qa_count": 1
+  },
+  "helper_removed": true
+}

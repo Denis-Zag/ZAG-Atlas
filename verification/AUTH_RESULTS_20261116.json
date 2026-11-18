@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-11-16T16:18:57.241Z",
+  "offline_tests": {
+    "passed": 47,
+    "failed": 0,
+    "seconds": 15.009
+  },
+  "production_hash": "PBKDF2-HMAC-SHA256 / 600000 iterations, tested separately from fast test fixtures",
+  "live_migration": {
+    "login": 200,
+    "must_change_password": true,
+    "limited_before_password_change": 403,
+    "logout": 200,
+    "old_cookie": 401,
+    "data": {
+      "documents": 6,
+      "snippets": 39,
+      "qa_runs": 9
+    },
+    "users": [
+      [
+        "admin",
+        "admin"
+      ]
+    ]
+  },
+  "coverage": [
+    "Первый вход и обязательная смена",
+    "Персональные staff, запрет повышения роли",
+    "Logout с отзывом копии cookie",
+    "Idle/absolute таймауты и настройки администратора",
+    "Сброс и блокировка отзывают сессии",
+    "Смена пароля отзывает другие сессии; env не сбрасывает пароль",
+    "CSRF/Origin и отсутствие HTTP Basic обхода",
+    "Отсутствие паролей и session cookie в аудите",
+    "Защита от повторных попыток входа",
+    "Совместимость вспомогательных скриптов"
+  ],
+  "ui_status": "Синтаксис JS проверен; новые экраны требуют ручной визуальной приёмки",
+  "rollback": "_rollback/before-sessions-20261116",
+  "final_runtime": {
+    "health": 200,
+    "login_form": true,
+    "users_form": true,
+    "data": {
+      "documents": 6,
+      "snippets": 39,
+      "qa_runs": 9
+    },
+    "admin": [
+      [
+        "admin",
+        1
+      ]
+    ]
+  },
+  "env_unchanged": true,
+  "note": "Первая проба сразу после пересоздания пришлась на запуск сервера; повторная проверка готового сервера прошла."
+}

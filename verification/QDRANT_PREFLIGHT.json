@@ -1,0 +1,13 @@
+{
+  "model": "openai/text-embedding-3-small",
+  "dimensions": 1536,
+  "probe_tokens": 7,
+  "qdrant_version": "1.17.1",
+  "internal_health_http": 200,
+  "empty_index_resource_sample": {
+    "memory": "16.22 MiB",
+    "cpu": "0.02%",
+    "memory_limit": "1 GiB"
+  },
+  "note": "Замер в момент проверки без документов; это не максимум нагрузки. Первый Docker-прогон прерван ConnectTimeout; повтор с connect=30 секунд выполняется."
+}

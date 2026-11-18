@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-18",
+  "status": "passed",
+  "targeted_tests": 15,
+  "targeted_duration_seconds": 1.425,
+  "offline_tests": 98,
+  "offline_duration_seconds": 36.912,
+  "test_database": "temporary SQLite only",
+  "existing_local_files_verified": 18,
+  "existing_local_files_unchanged": true,
+  "working_admin_password_reset": false,
+  "paid_model_calls": false,
+  "docker_recovery_executed": false,
+  "real_vps_recovery_executed": false,
+  "limitations": [
+    "Docker Engine недоступен из сессии агента",
+    "Интерактивный ввод проверен с подменой getpass в тестах",
+    "Восстановление в рабочем контейнере и на настоящем VPS не выполнялось"
+  ]
+}

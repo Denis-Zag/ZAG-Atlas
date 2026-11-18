@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-17",
+  "change": "В списке аудита needs_review выделен красной меткой «Требует проверки (needs_review)»; длительность и дата отображаются отдельно.",
+  "checks": {
+    "javascript_syntax": "passed",
+    "actual_audit_renderer_with_dom_stub": "passed",
+    "review_badge_text_and_danger_class": "passed",
+    "ordinary_status_and_duration_preserved": "passed"
+  },
+  "source_updated": true,
+  "working_docker_updated": false,
+  "pending": "Пользовательский запуск compose up -d --build --no-deps atlas и визуальная проверка после Ctrl+F5",
+  "backend_changed": false,
+  "paid_requests_executed": false,
+  "clean_start_note": "Фактический замер 142,498 с выполнен до этого косметического изменения. Повторная чистая сборка не выполнялась."
+}

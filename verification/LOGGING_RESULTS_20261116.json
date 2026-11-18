@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-11-16T14:41:16.158Z",
+  "offline_tests": {
+    "passed": 35,
+    "failed": 0,
+    "duration_seconds": 7.665,
+    "new_diagnostic_tests": 12,
+    "external_paid_calls": 0
+  },
+  "runtime": {
+    "data_after": {
+      "documents": 6,
+      "snippets": 39,
+      "qa_runs": 8
+    },
+    "vector_points": 39,
+    "documents_request": {
+      "http_status": 200,
+      "request_id": "645588bd-4ff1-4909-b02a-5bfdf7c89316",
+      "response_request_id": "645588bd-4ff1-4909-b02a-5bfdf7c89316",
+      "document_count": 6
+    },
+    "validation_request": {
+      "http_status": 422,
+      "request_id": "ddacf562-5c9d-4302-bb08-ee03f9a29368",
+      "response_request_id": "ddacf562-5c9d-4302-bb08-ee03f9a29368",
+      "document_count": null
+    }
+  },
+  "log_rotation": {
+    "zag-atlas-atlas-1": {
+      "Type": "json-file",
+      "Config": {
+        "max-file": "3",
+        "max-size": "10m"
+      }
+    },
+    "zag-atlas-qdrant-1": {
+      "Type": "json-file",
+      "Config": {
+        "max-file": "3",
+        "max-size": "10m"
+      }
+    }
+  },
+  "live_log_examples": [
+    {
+      "timestamp": "2026-11-16T14:40:30.993636+00:00",
+      "level": "INFO",
+      "event": "application_started",
+      "request_id": null,
+      "component": "lifecycle",
+      "search_mode": "hybrid"
+    },
+    {
+      "timestamp": "2026-11-16T14:41:15.903927+00:00",
+      "level": "WARNING",
+      "event": "request_completed",
+      "request_id": "ddacf562-5c9d-4302-bb08-ee03f9a29368",
+      "component": "api",
+      "method": "POST",
+      "route": "/ai/answer_with_sources",
+      "http_status": 422,
+      "audit_status": "ok",
+      "status": "rejected",
+      "duration_ms": 9
+    }
+  ],
+  "privacy": {
+    "no_request_or_document_bodies": true,
+    "no_credentials": true,
+    "exception_messages_omitted": true,
+    "stack_frames_and_cause_types_preserved": true
+  },
+  "notes": [
+    "Проверил ошибки и утечки на временной базе с подменой внешних ответов.",
+    "Рабочая база и число точек Qdrant сохранены. Полный платный RAG-прогон для этой доработки не повторял."
+  ],
+  "docker_build": "b1af0a3dd629"
+}

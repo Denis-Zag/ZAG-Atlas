@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-18T07:08:10.277581+00:00",
+  "status": "passed_local_checks",
+  "installer_tests": {
+    "count": 17,
+    "seconds": 18.094,
+    "passed": true,
+    "log": "verification/INSTALLER_TEST_RESULTS.txt"
+  },
+  "full_offline_suite": {
+    "count": 83,
+    "seconds": 37.056,
+    "passed": true,
+    "log": "TEST_RESULTS.txt"
+  },
+  "local_preservation": {
+    "checked_at": "2026-11-18T07:08:10.275538+00:00",
+    "protected_file_count": 18,
+    "changed_files": [],
+    "passed": true,
+    "server_env_created_in_working_root": false
+  },
+  "environment": "Windows, Git Bash; Linux/Docker/DNS/HTTPS подменены в сценарных тестах; настоящий Compose CLI разбирает временный профиль без Engine",
+  "compose_cli_version": "5.5.1",
+  "paid_model_calls": 0,
+  "real_containers_started": false,
+  "full_vps_verified": false,
+  "real_certificate_verified": false,
+  "server_image_pull_verified": false,
+  "installer_timing_claimed": false,
+  "new_profile": "compose.server.yaml",
+  "new_project": "zag-atlas-server",
+  "working_compose_modified": false,
+  "working_env_modified": false,
+  "secret_values_in_report": false
+}

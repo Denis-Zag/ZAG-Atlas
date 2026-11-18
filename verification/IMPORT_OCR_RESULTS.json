@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "file": "01_services.docx",
+      "content_preserved": true,
+      "method": "docx",
+      "saved": true
+    },
+    {
+      "file": "02_intake.pdf",
+      "content_preserved": true,
+      "method": "pdf",
+      "saved": true
+    },
+    {
+      "file": "03_prices.docx",
+      "content_preserved": true,
+      "method": "docx",
+      "saved": true
+    },
+    {
+      "file": "04_changes_warranty.pdf",
+      "content_preserved": true,
+      "method": "pdf",
+      "saved": true
+    },
+    {
+      "file": "05_faq.txt",
+      "content_preserved": true,
+      "method": "text",
+      "saved": true
+    },
+    {
+      "file": "intake_scan.pdf",
+      "method": "ocr",
+      "text_length": 859,
+      "preview": "Приём и согласование заявки\n\nПри создании заявки менеджер уточняет имя клиента, адрес, телефон и вид работ.\nМенеджер записывает удобный для клиента де",
+      "warnings": [
+        "Содержимое фотографий и схем не анализировалось",
+        "Текст распознан OCR: проверьте его перед сохранением"
+      ],
+      "not_saved_automatically": true
+    },
+    {
+      "file": "invalid.pdf",
+      "expected_http": 422,
+      "actual_http": 422
+    },
+    {
+      "file": "unsupported.exe",
+      "expected_http": 422,
+      "actual_http": 422
+    },
+    {
+      "file": "oversize.txt",
+      "expected_http": 413,
+      "actual_http": 413
+    }
+  ],
+  "passed": true
+}

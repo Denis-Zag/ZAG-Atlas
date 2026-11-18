@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-11-15T14:10:44.041Z",
+  "status": "blocked",
+  "error_type": "ConnectError",
+  "os_error": 10054,
+  "model_call_confirmed": false
+}

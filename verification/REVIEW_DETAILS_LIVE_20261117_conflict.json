@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-11-17T13:21:24.235485+00:00",
+  "cases": [
+    {
+      "name": "conflict",
+      "question": "Какова базовая стоимость стандартного монтажа?",
+      "http_status": 200,
+      "result": {
+        "answer": "Недостаточно данных для подтверждённого ответа. Требуется ручная проверка.\n\nНе подтверждено в найденных материалах:\n• Единая (непротиворечивая) базовая стоимость стандартного монтажа\n\nСледующий шаг:\nУточните у ответственного сотрудника актуальную версию или приоритет документов. Попросите администратора обновить материалы и повторите вопрос.",
+        "sources": [],
+        "confidence": "low",
+        "needs_review": true
+      },
+      "audit_status": "needs_review",
+      "audit_reason": "В найденных материалах есть противоречие. Требует уточнения: Единая (непротиворечивая) базовая стоимость стандартного монтажа",
+      "meta": {
+        "usage": {
+          "prompt_tokens": 969,
+          "completion_tokens": 752,
+          "total_tokens": 1721,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 640,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        },
+        "duration_ms": 13958,
+        "review_details": {
+          "kind": "conflict",
+          "missing_information": [
+            "Единая (непротиворечивая) базовая стоимость стандартного монтажа"
+          ],
+          "reason": "В найденных материалах есть противоречие. Требует уточнения: Единая (непротиворечивая) базовая стоимость стандартного монтажа",
+          "next_step": "Уточните у ответственного сотрудника актуальную версию или приоритет документов. Попросите администратора обновить материалы и повторите вопрос."
+        }
+      },
+      "technical_error": false,
+      "seconds": 13.995,
+      "passed": true
+    }
+  ],
+  "environment": "Изолированная временная SQLite, локальный TestClient, реальная модель ProxyAPI",
+  "search_mode": "lexical",
+  "working_data_changed": false,
+  "passed": true
+}

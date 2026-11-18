@@ -1,0 +1,22 @@
+test_bash_syntax (test_installer.InstallerTests.test_bash_syntax) ... ok
+test_busy_ports_stop_before_secrets_or_writes (test_installer.InstallerTests.test_busy_ports_stop_before_secrets_or_writes) ... ok
+test_check_does_not_write_config_or_start_services (test_installer.InstallerTests.test_check_does_not_write_config_or_start_services) ... ok
+test_compose_failure_preserves_config_for_retry (test_installer.InstallerTests.test_compose_failure_preserves_config_for_retry) ... ok
+test_compose_parser_and_secret_roundtrip (test_installer.InstallerTests.test_compose_parser_and_secret_roundtrip) ... ok
+test_domain_validation (test_installer.InstallerTests.test_domain_validation) ... ok
+test_existing_data_without_settings_are_not_reused (test_installer.InstallerTests.test_existing_data_without_settings_are_not_reused) ... ok
+test_existing_server_env_is_reused_without_input (test_installer.InstallerTests.test_existing_server_env_is_reused_without_input) ... ok
+test_help_has_no_side_effects (test_installer.InstallerTests.test_help_has_no_side_effects) ... ok
+test_https_failure_is_not_reported_as_success (test_installer.InstallerTests.test_https_failure_is_not_reported_as_success) ... ok
+test_install_is_isolated_and_secrets_are_not_printed (test_installer.InstallerTests.test_install_is_isolated_and_secrets_are_not_printed) ... ok
+test_invalid_existing_domain_is_rejected (test_installer.InstallerTests.test_invalid_existing_domain_is_rejected) ... ok
+test_password_mismatch_does_not_create_config (test_installer.InstallerTests.test_password_mismatch_does_not_create_config) ... ok
+test_raw_password_edge_cases (test_installer.InstallerTests.test_raw_password_edge_cases) ... ok
+test_remote_docker_is_rejected (test_installer.InstallerTests.test_remote_docker_is_rejected) ... ok
+test_short_password_does_not_create_config (test_installer.InstallerTests.test_short_password_does_not_create_config) ... ok
+test_unresolved_domain_does_not_write_secrets (test_installer.InstallerTests.test_unresolved_domain_does_not_write_secrets) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 18.094s
+
+OK

@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "label": "Техническая ошибка",
+      "className": "badge danger"
+    },
+    {
+      "label": "Требует проверки",
+      "className": "badge warning"
+    },
+    {
+      "label": "Есть подтверждающие источники",
+      "className": "badge "
+    },
+    {
+      "label": "Техническая ошибка",
+      "className": "badge danger"
+    }
+  ],
+  "syntax_check": "passed",
+  "served_asset_check": "passed",
+  "native_browser_visual_check": "pending",
+  "vpn_changed": false,
+  "note": "Первая проверка сразу после пересоздания пришлась на запуск сервера; повтор выполнен после запуска."
+}
